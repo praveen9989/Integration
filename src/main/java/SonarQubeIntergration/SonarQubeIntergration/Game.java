@@ -21,6 +21,13 @@ public class Game {
         System.out.println("2. Rogue");
         System.out.println("3. Mage");
         System.out.println("4. Cleric");
+	  
+        public static Character CharacterCreator() {
+        System.out.println("Choose a character: ");
+        System.out.println("1. Fighter");
+        System.out.println("2. Rogue");
+        System.out.println("3. Mage");
+        System.out.println("4. Cleric");
 
 
         Scanner sc = new Scanner(System.in);
