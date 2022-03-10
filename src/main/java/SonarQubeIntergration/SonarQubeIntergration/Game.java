@@ -165,7 +165,7 @@ public class Game {
         return mod;
     }
 
-    public String getName() { return name; }
+   /* public String getName() { return name; }
     public String getCharacterClass() { return characterClass; }
     public int getLevel() { return level; }
     public int getHp() { return  hp; }
@@ -189,7 +189,7 @@ public class Game {
     protected void setDexterity( int dex) { dexterity = dex; }
     protected void setIntelligence(int intel){ intelligence = intel; }
     protected void setWisdom(int wis){ wisdom = wis; }
-    protected void setCharisma(int cha){charisma = cha; }
+    protected void setCharisma(int cha){charisma = cha; } */
 
 
 
