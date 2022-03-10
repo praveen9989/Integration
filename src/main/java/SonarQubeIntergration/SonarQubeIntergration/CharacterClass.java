@@ -26,9 +26,9 @@ abstract class CharacterClass {
         setCharisma(10);
     }
 
-    public String getCharacterClass() { return characterClass; }
-    public int getLevel() { return level; }
-    public int getHp() { return  hp; }
+    // public String getCharacterClass() { return characterClass; }
+    // public int getLevel() { return level; }
+    // public int getHp() { return  hp; }
     public int getStrength(){ return strength; }
     public int getConstitution(){ return constitution; }
     public int getDexterity(){ return dexterity; }
@@ -36,9 +36,9 @@ abstract class CharacterClass {
     public int getWisdom(){ return wisdom; }
     public int getCharisma(){ return charisma; }
 
-    protected void setCharacterClass(String characterClass){ this.characterClass = characterClass; }
+    /* protected void setCharacterClass(String characterClass){ this.characterClass = characterClass; }
     protected void setLevel(int lvl){ level = lvl; }
-    protected void setHp(int hitPoints){ hp = hitPoints; }
+    protected void setHp(int hitPoints){ hp = hitPoints; } */
     protected void setStrength(int str){ strength = str; }
     protected void setConstitution(int con){ constitution = con; }
     protected void setDexterity( int dex) { dexterity = dex; }
@@ -52,9 +52,9 @@ abstract class CharacterClass {
 class Fighter extends CharacterClass {
 
     Fighter(){
-        setCharacterClass("Fighter");
-        setLevel(1);
-        setHp(10);
+        // setCharacterClass("Fighter");
+        // setLevel(1);
+        // setHp(10);
         setStrength(14);
         setConstitution(16);
         setDexterity(14);
