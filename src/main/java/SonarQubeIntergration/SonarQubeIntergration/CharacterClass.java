@@ -2,7 +2,7 @@ package SonarQubeIntergration.SonarQubeIntergration;
 
 abstract class CharacterClass {
 
-    private String characterClass;
+    // private String characterClass;
     private int level;
     private int hp;
 
@@ -15,10 +15,10 @@ abstract class CharacterClass {
 
     protected CharacterClass(){
 
-        setCharacterClass("Character Class");
-        setLevel(1);
-        setHp(10);
-        setStrength(10);
+        //setCharacterClass("Character Class");
+        //setLevel(1);
+        //setHp(10);
+        //setStrength(10);
         setConstitution(10);
         setDexterity(10);
         setIntelligence(10);
