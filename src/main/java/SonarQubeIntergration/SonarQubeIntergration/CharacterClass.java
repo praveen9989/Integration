@@ -15,7 +15,7 @@ abstract class CharacterClass {
 
     protected CharacterClass(){
 
-        /* setCharacterClass("Character Class");
+        setCharacterClass("Character Class");
         setLevel(1);
         setHp(10);
         setStrength(10);
@@ -23,10 +23,10 @@ abstract class CharacterClass {
         setDexterity(10);
         setIntelligence(10);
         setWisdom(10);
-        setCharisma(10); */
+        setCharisma(10); 
     }
 
-    /* public String getCharacterClass() { return characterClass; }
+    public String getCharacterClass() { return characterClass; }
     public int getLevel() { return level; }
     public int getHp() { return  hp; }
     public int getStrength(){ return strength; }
@@ -34,9 +34,9 @@ abstract class CharacterClass {
     public int getDexterity(){ return dexterity; }
     public int getIntelligence(){ return intelligence; }
     public int getWisdom(){ return wisdom; }
-    public int getCharisma(){ return charisma; } */
+    public int getCharisma(){ return charisma; } 
 
-    /* protected void setCharacterClass(String characterClass){ this.characterClass = characterClass; }
+    protected void setCharacterClass(String characterClass){ this.characterClass = characterClass; }
     protected void setLevel(int lvl){ level = lvl; }
     protected void setHp(int hitPoints){ hp = hitPoints; } 
     protected void setStrength(int str){ strength = str; }
@@ -44,7 +44,7 @@ abstract class CharacterClass {
     protected void setDexterity( int dex) { dexterity = dex; }
     protected void setIntelligence(int intel){ intelligence = intel; }
     protected void setWisdom(int wis){ wisdom = wis; }
-    protected void setCharisma(int cha){charisma = cha; } */
+    protected void setCharisma(int cha){charisma = cha; } 
 
 }
 
@@ -52,7 +52,7 @@ abstract class CharacterClass {
 class Fighter extends CharacterClass {
 
     Fighter(){
-        /*setCharacterClass("Fighter");
+        setCharacterClass("Fighter");
         setLevel(1);
         setHp(10);
         setStrength(14);
@@ -60,7 +60,7 @@ class Fighter extends CharacterClass {
         setDexterity(14);
         setIntelligence(10);
         setWisdom(10);
-        setCharisma(10);*/
+        setCharisma(10);
     }
 }
 
